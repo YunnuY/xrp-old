@@ -1,23 +1,17 @@
-<img src="https://camo.githubusercontent.com/b8ecf54b15f51c7c992d6fce003b661c96d8acec/68747470733a2f2f63646e2e7261776769742e636f6d2f6172746966696369616c696f2f73616e652f67682d70616765732f5f696e636c756465732f73616e652d6c6f676f2e737667" width="400"/>
-
-
-How to SANE
+xrp
 ==========================
-The official demo app of how to use the SANE stack https://github.com/artificialio/sane. This is also the main experiment laboratory for prototyping and spinning off sane add ons.
+i was interested in creating a full-stack javascript web framework [MEEN](https://github.com/YunnuY/meen)
+which use nodejs as backend and emberjs as frontend, then find that there has been
+a good solution [sane](https://github.com/artificialio/sane).
 
-Please keep in mind that this project is 'canary'. For the sake of adopting new features as early as possible,  it is developed using the latest unstable versions of everything like ember canary, es6, iojs etc. This will definitely cause instability.
+sane has an official demo app of how to use it [how-to-sane](https://github.com/mgenev/how-to-sane).
 
-Currently demonstrated features:
+1. i want a dedicated place to discuss node, sailsjs, emberjs and sane;
+2. i want to show some real usecase for sane as well as sailsjs, emberjs;
+3. i happen to have a domain name getxrp.com;
 
-+ CRUD - API with a SPA client
-+ User authentication
-+ Data relationships
-+ File uploads
-+ Photo gallery and viewer 
-+ Server connected UI components
-+ Data bound modals
-+ Basic CMS functionality (being built) 
-+ Many more coming
+so i decide to develop an bbs using sane stack. thanks to how-to-sane as this based
+on it.
 
 How is it made?
 ==========================
@@ -47,9 +41,12 @@ Installation:
 
 Support:
 ==========================
-If you have questions about this project, come to the chat for the SANE stack https://gitter.im/artificialio/sane
+If you have questions about this project:
+
+1. submit an issue;
+2. come to the site www.getxrp.com;
 
 ### License 
-How-to-SANE is [MIT Licensed](https://github.com/mgenev/how-to-sane/blob/master/LICENSE.md).
+MIT Licensed.
 
-Copyright (c) 2014 Gemini Connect LLC
+Copyright (c) 2015 YunnuY
