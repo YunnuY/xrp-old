@@ -33,6 +33,9 @@ module.exports.policies = {
   },
   AuthController: {
       '*': true,
+  },
+  PostController: {
+    'find': true
   }
 
   /***************************************************************************
