@@ -16,6 +16,7 @@ export default DS.Model.extend({
     tagline: DS.attr('string'),
     email: DS.attr('string'),
     website: DS.attr('string'),
+    avatar: 'assets/images/avatar.png',
 
     // computed
     fullName: function () {
