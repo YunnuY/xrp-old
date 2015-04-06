@@ -1,4 +1,6 @@
 <div class="container">
+  {{#link-to 's.posts.create'}}<div class="btn btn-info bump">Create Post</div>{{/link-to}}
+
   {{#each}}
     <div class="bump"></div>
     <div class="row post">
@@ -6,7 +8,7 @@
         {{gravatar-image email=user.email alt=user.username size=48}}
       </div>
       <div>
-        <div class="title">{{title}}</div>
+        <div class="title">{{#link-to 's.posts.post' id}}{{title}}{{/link-to}}</div>
         <div class="info">
           {{user.username}}, body:{{body}}, tags:{{tags}}
         </div>
