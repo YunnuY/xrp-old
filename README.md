@@ -46,7 +46,7 @@ If you have questions about this project:
 1. submit an issue;
 2. come to the site www.getxrp.com;
 
-### License 
+### License
 MIT Licensed.
 
 Copyright (c) 2015 YunnuY
